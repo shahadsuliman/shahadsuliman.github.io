@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Tweet-preprocessor
 
-You can use the [editor on GitHub](https://github.com/shahadsuliman/shahadsuliman.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Tweet-preprocessor is an free, open soure project that aims to deliver common text processing and analysis operations for Arabic tweets. 
 
 ### Markdown
 
