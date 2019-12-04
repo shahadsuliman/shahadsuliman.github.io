@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Atmosphere 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20110923
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Tweets-Preprocessor</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<h1><a href="#">Tweets-Preprocessor </a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="index.html"><a href="index.html">Homepage</a></li>
+				<li><a href="downloads.html">Download</a></li>
+				<li><a href="contribute.html">Contributing</a></li>
+				<li><a href="documntation.html">Documntation</a></li>
+
+			</ul>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="contact-us.html">Documntation</a></h2>
+				
+				<div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+
+ 
+						<p>Tweets analyzer is a python-based project that provides an API to deliver common text processing and analysis operations for Arabic tweets. It contains 4 functions: Lemmatization, clean, Describ_emojis and remove stop words.</p>
+						
+						<h3> 1.	Functions </h3>
+						
+						<ol>
+						
+						
+						<li>  
+						<h4> Lemmatizer</h4>
+						This function accepts a tweet, or a list of tweets, and returns the tweet or the list of tweets in Lemmatized form.
+						
+						<strong>Usage</strong>
+						
+						<pre> In []: Lemmatize('خبراء: مهما كانت حرفية وموضوعية تقارير اللجان التخصصية بشأن الناصرية إلا أنها غير ملزمة للقضاء العراقي') </pre>
+						<pre> Out []: خبراء: مهم كان حرف موضوع تقارير اللج تخصص بشء ناصر الا انه غير ملزم قضاء عراق </pre>
+						
+						</li>
+						
+												
+						<li>  
+						<h4> Clean </h4>
+						This function accepts a tweet, or a list of tweets and applies several cleaning steps. These steps include remove hashtags, remove consecutive words, remove mentions, normalize the text. By default, all steps are applied, but the user can specigy which steps to applied/not applied.
+						
+						<strong>Usage</strong>
+						
+						<pre> In []: clean('وكلّما أغاظني كيد الأعداء شفا صدري دواء :"قُل اللَّـه أَسرعُ مَكرًا  إِنَّ رسلَنا يَكْتبونَ مَا تمكرون "') </pre>
+						<pre> Out []: وكلما اغاظني كيد الاعداء شفا صدري دواء قل الله اسرع مكرا ان رسلنا يكتبون ما تمكرون</pre>
+						
+						</li>
+						
+						<li>  
+						<h4> remove stop words </h4>
+						This function accepts a tweet, or a list of tweets, and return the input with all stop words removed..
+						
+						<strong>Usage</strong>
+						
+						<pre> In []: remove_stopwords('هذا الكتاب مفيد في مقدمته للأدباء، وفي متنه لأهل التخصص وعشاق التداوليات واللغويات أمثالي، وفيه عجائب معروضة بلغة فخمة وفاخرة.') </pre>
+						<pre> Out []: كتاب مفيد مقدمته للأدباء، متنه لأهل التخصص وعشاق التداوليات واللغويات أمثالي، وفيه عجائب معروضة بلغة فخمة وفاخرة.</pre>
+						
+						</li>
+						
+						<li>  
+						<h4> Replace emojis </h4>
+						This function accepts a tweet, or a list of tweets, and returns the tweet or the list of tweets with each emoji replaced with its description.
+						
+						<strong>Usage</strong>
+						
+						<pre> In []: replace_emoji_with_description('تغطية المعرض الدولي للقهوة والشوكولاتة في ستوري الانستقرام 👌🏻😎😎 واشكر القائمين عليه على ماقدموه من جهد للوصول الى هذا المستوى 👌🏻') </pre>
+						<pre> Out []: تغطية المعرض الدولي للقهوة والشوكولاتة في ستوري الانستقرام  موافق اليد: لون البشرة الفاتحة وجه مبتسم مع النظارات الشمسية وجه مبتسم مع النظارات الشمسية واشكر القائمين عليه على ماقدموه من جهد للوصول الى هذا المستوى  موافق اليد: لون البشرة الفاتحة.</pre>
+						
+						</li>						
+						
+						
+						
+						
+						</ol>
+
+
+				</div>
+			</div>
+
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar">
+			<ul>
+
+				<li>
+					<h2>Quick links</h2>
+					<ul>
+						<li><a href="https://github.com/shahadsuliman/Processor">Github page</a></li>
+						<li><a href="contact-us.html">Contact</a></li>
+						<li><a href="#">Maintainers</a>
+							<ul>
+							  <li><a href="https://github.com/shahadsuliman">Shahad Al-Shalan</a></li>
+							  <li><a href="https://github.com/RaghadAlshalan">Raghad Al-Shalan</a></li>
+							</ul>
+							
+						
+						</li>
+
+					</ul>
+				</li>
+				<li>
+
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer-content">
+	<div id="footer-bg" class="container">
+		<div id="column1">
+			<h2>Welcome to tweet-processor website</h2>
+		</div>
+		<div id="column2">
+
+		</div>
+		<div id="column3">
+			<h2>Recommended Links</h2>
+			<ul>
+				<li><a href="https://www.python.org/downloads/">Download python</a></li>
+
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p>&copy; Untitled. All rights reserved. Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

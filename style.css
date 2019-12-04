@@ -58,10 +58,26 @@ a:hover {
 	margin: 0px auto;
 }
 
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+border-radius: 4px;   white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */}
 /* Header */
 
 #header {
-	width: 900px;
+	width: 77%;
 	height: 115px;
 	margin: 0 auto;
 	padding: 0px 50px;
@@ -71,7 +87,7 @@ a:hover {
 
 #logo {
 	float: left;
-	width: 300px;
+	width: 400px;
 	margin: 0;
 	padding: 0;
 	color: #FFFFFF;
@@ -81,9 +97,8 @@ a:hover {
 }
 
 #logo h1 {
-	padding:10px 0px 0px 0px;
+	padding:20px 0px 0px 0px;
 	letter-spacing: -2px;
-	text-transform: lowercase;
 	font-size: 3.8em;
 }
 
@@ -145,7 +160,6 @@ a:hover {
 	padding: 6px 5px 2px 5px;
 	border: 1px solid #E7EBED;
 	background: #FFFFFF;
-	text-transform: lowercase;
 	font: normal 11px Arial, Helvetica, sans-serif;
 	color: #5D781D;
 }
@@ -162,7 +176,7 @@ a:hover {
 
 #menu {
 	float: right;
-	width: 500px;
+	width: 600px;
 	height: 90px;
 	margin: 0 auto;
 	padding: 0;
@@ -233,7 +247,6 @@ a:hover {
 
 .post .title a {
 	border: none;
-	text-transform: lowercase;
 	color: #3A4648;
 }
 
@@ -397,7 +410,6 @@ a:hover {
 	margin: 0px;
 	padding: 0px 0px 20px 0px;
 	letter-spacing: -1px;
-	text-transform: lowercase;
 	font-size: 26px;
 	color: #FFFFFF;
 }
@@ -463,7 +475,6 @@ a:hover {
 	margin: 0px;
 	padding: 0px;
 	letter-spacing: -2px;
-	text-transform: lowercase;
 	font-size: 34px;
 	color: #345E9B;
 }
@@ -480,7 +491,37 @@ a:hover {
 	background: url(images/img07.jpg) no-repeat left top;
 	letter-spacing: -2px;
 	text-align: center;
-	text-transform: lowercase;
 	font-size: 30px;
 	color: #FFFFFF;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 400px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
 }

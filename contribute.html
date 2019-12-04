@@ -28,7 +28,7 @@ Released   : 20110923
 			<ul>
 				<li class="index.html"><a href="index.html">Homepage</a></li>
 				<li><a href="downloads.html">Download</a></li>
-				<li><a href="contribute.html">Contributing</a></li>
+				<li><a href="#">Contributing</a></li>
 				<li><a href="documntation.html">Documntation</a></li>
 
 			</ul>
@@ -38,23 +38,37 @@ Released   : 20110923
 	<div id="page">
 		<div id="content">
 			<div class="post">
-
+				<h2 class="title"><a href="contact-us.html">Contribution workflow </a></h2>
 				
 				<div style="clear: both;">&nbsp;</div>
 				<div class="entry">
 
+ 
+						<p>We welcome contributions and collaboration on our project. pre contributions may include bug fixes, new development, test improvement. The 
+						process of contribution  follow a GitHub-centered workflow. To participate in development, set up a GitHub account. Then:</p>
+						
+						<ol>
+							<li><p>Fork the repo you plan to work on.
+							Go to the project repo page and use the <em>Fork</em> button. This will create a copy of the
+							repo, under your username. (For more details on how to fork a repository see </p></li>
+							<li><p>Clone down the repo to your local system.</p>
 
-						<h1>Welcome to Tweets-Preprocessor project</h1>
-						
-						<p> Tweets-Preprocessor is a python-based project that provides an API to deliver common text processing and analysis operations for Arabic tweets. It contains 4 functions: Lemmatization, clean, Describ_emojis and remove stop words.our goal is to provide module that delivers common text processing and analysis operations for Arabic tweets.
-						
-						
-						<strong> If you find Tweets-Preprocessor useful and you feel intersted in particpating as a developer, you are welcome to <a href="contribute.html">contribute</a> </strong>
+							<p><pre translate="no" dir="ltr">$ git clone git@github.com:your-user-name/processor.git</pre></p></li>
+							<li><p>Create a new branch to hold your work.</p>
 
-						</p>
-						
-						<p>If you want to know how to use this project, plese read the <a href="documntation.html">documntation</a> and feel free to <a href="contact-us.html">contact</a>  us if you 
-						have any question						</p>
+							<p><pre translate="no" dir="ltr">$ git checkout -b new-branch-name</pre></p></li>
+							<li><p>Work on your new pre. Write and run tests.</p></li>
+							<li><p>Commit your changes.</p>
+
+							<p><pre translate="no" dir="ltr">$ git add -a</pre></p>
+
+							<p><pre translate="no" dir="ltr">$ git commit -m "commit message here"</pre></p></li>
+							<li><p>Push your changes to your GitHub repo.</p>
+
+							<p><pre translate="no" dir="ltr">$ git push origin branch-name</pre></p></li>
+							<li><p>Open a <em>Pull Request</em> (PR). Go to the original project repo on GitHub. There will be a message about your recently pushed branch, asking if you would like to open a pull request. Follow the prompts, <em>compare across repositories</em>, and submit the PR. This will send an email to the committers. . </p></li>
+							<li><p>Maintainers will <em>review your PR</em>. 
+
 
 				</div>
 			</div>
